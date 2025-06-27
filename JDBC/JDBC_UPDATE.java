@@ -18,7 +18,7 @@ public class JDBC_UPDATE {
 		Statement statement = connect.createStatement();
 		
 		//Execute SQL Query
-		String sql="UPDATE employees SET emp_name='SHIVANI' where emp_id=3";
+		String sql="UPDATE employees SET emp_name='SHIVANI', emp_gender='F' where emp_id=3";
 		int result = statement.executeUpdate(sql);
 		
 		//process result
