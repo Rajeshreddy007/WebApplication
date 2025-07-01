@@ -1,0 +1,95 @@
+body {
+  background: #e9ecef;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register {
+  background: linear-gradient(to right, #3931af, #00c6ff);
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 1rem;
+  min-height: 500px;
+}
+
+.register-left {
+  text-align: center;
+  color: #fff;
+}
+
+.register-left h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.register-left p {
+  padding: 0 12%;
+  font-size: 0.9rem;
+}
+
+.register-right {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  padding: 2rem;
+}
+
+/* Rectangle Tabs, No Underline */
+.custom-tabs {
+  border: none;
+  margin-bottom: 0;
+}
+
+.custom-tabs .nav-link {
+  border: 2px solid transparent;
+  background-color: #e0e0e0;
+  color: #333;
+  margin: 0 10px;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 0.3rem;
+  transition: all 0.3s ease;
+}
+
+.custom-tabs .nav-link.active {
+  background-color: #0062cc;
+  color: white;
+  border-color: #0062cc;
+}
+
+/* Headings Below Tabs */
+.section-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin: 30px 0 25px;
+  text-transform: uppercase;
+}
+
+/* Form Styling */
+.form-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  border-radius: 0.5rem;
+  border: 1.5px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.btnAction {
+  background-color: #0062cc;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 10px 40px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
