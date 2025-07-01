@@ -1,5 +1,11 @@
 # User Registration and Login Web Application
 
+
+
+
+https://github.com/user-attachments/assets/981564da-1ca6-46f2-8169-c84bf9d4e8f5
+
+
 This is a Java-based web application that allows users to **register, log in, and view their details** through a clean and intuitive interface. It uses Java Servlets, JSP, JDBC, and MySQL for backend operations, with HTML, CSS, and Bootstrap for frontend design. This project demonstrates a practical, full-stack implementation of user authentication and session management.
 
 ---
